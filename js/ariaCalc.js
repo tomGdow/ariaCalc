@@ -14,7 +14,7 @@ var mymodule = (function () {
             }
         },
 
-        btn_plus_fn: function () {
+       btn_plus_fn: function () {
 
             if (pane.value.slice(-1) != "+" && pane.value.slice(-1) != "-" && pane.value.slice(-1) != "*" && pane.value.slice(-1) != "/" && pane.value.slice(-1) != "%") {
                 pane.value += '+';
@@ -191,6 +191,6 @@ $(dragDiv);
 
 //Functions
 function dragDiv() {
-    $('#myCalculator').draggable();
+    $('#myfullcalculator').draggable();
 }
 

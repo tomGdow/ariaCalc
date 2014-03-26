@@ -1,10 +1,16 @@
 describe("My Converter", function () {
-    it("should convert imperial weight to metric", function () {
-        expect(Converter.convertFromPoundsToKilo(2.2)).toBe(1);
-    })
-    it("should be able to deal with strings", function () {
-        expect(function () {
-            Converter.convertFromPoundsToKilo("hello")
-        }).toThrow(new Error("Not a number"))
-    })
+    it("should add plus to a string", function () {
+        expect(Converter.btn_plus_fn(2)).toBe("2+");
+    }),
+
+        it("should add minus to a string", function () {
+            expect(Converter. btn_subtract_fn(2)).toBe("2-");
+        }),
+
+        it("should add modulus to a string", function () {
+            expect(Converter. btn_modulus_fn(2)).toBe("2%");
+        })
+
+
+
 })

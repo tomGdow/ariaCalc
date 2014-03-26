@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b99cf639-c93b-433c-b4a8-5bb0f21835da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tgd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Converter.js" afterPath="$PROJECT_DIR$/js/Converter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/js/spec/ConverterSpec.js" afterPath="$PROJECT_DIR$/test/js/spec/ConverterSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/SpecRunner.html" afterPath="$PROJECT_DIR$/test/SpecRunner.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ariaCalc.js" afterPath="$PROJECT_DIR$/js/ariaCalc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ariaCalc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +72,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="24" selection-start="1565" selection-end="1565" vertical-scroll-proportion="1.0980036" vertical-offset="367" max-vertical-offset="1296">
+            <state line="47" column="0" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-9.0" vertical-offset="630" max-vertical-offset="1386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Converter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Converter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="558">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/js/spec/ConverterSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="2" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -79,7 +102,16 @@
       <file leaf-file-name="ariaCalc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ariaCalc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="1" selection-start="2432" selection-end="2432" vertical-scroll-proportion="27.607143" vertical-offset="3130" max-vertical-offset="3636">
+            <state line="48" column="18" selection-start="1393" selection-end="1431" vertical-scroll-proportion="-2.1607144" vertical-offset="743" max-vertical-offset="3636">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tgd.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/tgd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -127,40 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="83" selection-end="84" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="198">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ru">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SpecRunner.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="21" column="6" selection-start="721" selection-end="721" vertical-scroll-proportion="0.6242775" vertical-offset="162" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -182,17 +184,20 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/test/SpecRunner.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/ariaCalcAlt.js" />
+        <option value="$PROJECT_DIR$/js/tgd.js" />
+        <option value="$PROJECT_DIR$/test/SpecRunner.html" />
         <option value="$PROJECT_DIR$/js/ariaCalc.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/test/js/spec/ConverterSpec.js" />
+        <option value="$PROJECT_DIR$/js/Converter.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="169" />
+    <option name="x" value="65" />
+    <option name="y" value="68" />
     <option name="width" value="1301" />
     <option name="height" value="715" />
   </component>
@@ -598,22 +603,22 @@
       <changelist id="b99cf639-c93b-433c-b4a8-5bb0f21835da" name="Default" comment="" />
       <created>1395858495523</created>
       <updated>1395858495523</updated>
-      <workItem from="1395858506529" duration="7351000" />
+      <workItem from="1395858506529" duration="9565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7351000" />
+    <option name="totallyTimeSpent" value="9565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="169" width="1301" height="715" extended-state="0" />
+    <frame x="65" y="68" width="1301" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -677,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/html5shiv.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5490">
@@ -718,16 +716,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ariaCalc.js">
+    <entry file="file://$PROJECT_DIR$/js/tgd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="1" selection-start="2432" selection-end="2432" vertical-scroll-proportion="27.607143" vertical-offset="3130" max-vertical-offset="3636">
+        <state line="9" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="24" selection-start="1565" selection-end="1565" vertical-scroll-proportion="1.0980036" vertical-offset="367" max-vertical-offset="1296">
+        <state line="47" column="0" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-9.0" vertical-offset="630" max-vertical-offset="1386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ariaCalc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="18" selection-start="1393" selection-end="1431" vertical-scroll-proportion="-2.1607144" vertical-offset="743" max-vertical-offset="3636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/js/spec/ConverterSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Converter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="6" selection-start="721" selection-end="721" vertical-scroll-proportion="0.6242775" vertical-offset="162" max-vertical-offset="558">
           <folding />
         </state>
       </provider>

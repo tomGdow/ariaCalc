@@ -1,17 +1,22 @@
 var Converter = ((function () {
-    var converterValue = 2.2;
+    var converterValue = 2;
     return {
-        convertFromPoundsToKilo: function (weight) {
-            var num = parseInt(weight);
-                if (isNaN(num) == true) {
-                throw new Error("Not a number");
-            }
-            num = num / converterValue;
-            return Math.round(num);
+        btn_plus_fn: function  (value) {
+
+        return   value += '+';
+
         },
 
-        convertFromMetricToImperial: function(weight) {
-            return weight / converterValue;
+        btn_subtract_fn: function  (value) {
+
+            return   value += '-';
+
+        },
+
+        btn_modulus_fn: function  (value) {
+
+            return   value += '%';
+
         }
     }
     })());
