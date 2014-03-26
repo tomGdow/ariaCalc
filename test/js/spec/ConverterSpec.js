@@ -9,6 +9,10 @@ describe("My Converter", function () {
 
         it("should add modulus to a string", function () {
             expect(Converter. btn_modulus_fn(2)).toBe("2%");
+        }),
+
+        it("should evaluate a string", function () {
+            expect(Converter. btn_equals_fn("2+2")).toBe(4);
         })
 
 

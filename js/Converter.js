@@ -17,6 +17,11 @@ var Converter = ((function () {
 
             return   value += '%';
 
+        },
+
+        btn_equals_fn: function (value) {
+
+            return eval(value);
         }
     }
     })());
