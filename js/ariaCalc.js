@@ -4,87 +4,82 @@ var mymodule = (function () {
 //Public
     return {
 
-        btn_plus_fn: function  () {
+        $$: function (id) {
+            'use strict';
+            if (typeof id != 'undefined') {
+                return document.getElementById(id);
+            }
+            else {
+                return 'undefined'
+            }
+        },
 
-            if(pane.value.slice(-1) !="+" && pane.value.slice(-1) !="-" && pane.value.slice(-1) !="*" && pane.value.slice(-1) !="/" && pane.value.slice(-1) !="%")
-            {
+        btn_plus_fn: function () {
+
+            if (pane.value.slice(-1) != "+" && pane.value.slice(-1) != "-" && pane.value.slice(-1) != "*" && pane.value.slice(-1) != "/" && pane.value.slice(-1) != "%") {
                 pane.value += '+';
 
             }
         },
 
-        btn_subtract_fn: function  () {
+        btn_subtract_fn: function () {
 
-        if(pane.value.slice(-1) !="+" && pane.value.slice(-1) !="-" && pane.value.slice(-1) !="*" && pane.value.slice(-1) !="/" && pane.value.slice(-1) !="%")
-        {
-            pane.value += '-';
+            if (pane.value.slice(-1) != "+" && pane.value.slice(-1) != "-" && pane.value.slice(-1) != "*" && pane.value.slice(-1) != "/" && pane.value.slice(-1) != "%") {
+                pane.value += '-';
 
-        }
-         },
-
-        btn_multiply_fn: function  () {
-
-        if(pane.value.slice(-1) !="+" && pane.value.slice(-1) !="-" && pane.value.slice(-1) !="*" && pane.value.slice(-1) !="/" && pane.value.slice(-1) !="%")
-        {
-            pane.value += '*';
-
-        }
+            }
         },
 
-        btn_divide_fn: function  () {
+        btn_multiply_fn: function () {
 
-        if(pane.value.slice(-1) !="+" && pane.value.slice(-1) !="-" && pane.value.slice(-1) !="*" && pane.value.slice(-1) !="/" && pane.value.slice(-1) !="%")
-        {
-            pane.value += '/';
+            if (pane.value.slice(-1) != "+" && pane.value.slice(-1) != "-" && pane.value.slice(-1) != "*" && pane.value.slice(-1) != "/" && pane.value.slice(-1) != "%") {
+                pane.value += '*';
 
-        }
+            }
         },
 
-        btn_modulus_fn: function  ()  {
+        btn_divide_fn: function () {
 
-        if(pane.value.slice(-1) !="+" && pane.value.slice(-1) !="-" && pane.value.slice(-1) !="*" && pane.value.slice(-1) !="/" &&  pane.value.slice(-1) !="%")
-        {
-            pane.value += '%';
+            if (pane.value.slice(-1) != "+" && pane.value.slice(-1) != "-" && pane.value.slice(-1) != "*" && pane.value.slice(-1) != "/" && pane.value.slice(-1) != "%") {
+                pane.value += '/';
 
-        }
-       },
+            }
+        },
 
-        btn_equals_fn: function  () {
+        btn_modulus_fn: function () {
 
-        pane.value = eval(pane.value);
+            if (pane.value.slice(-1) != "+" && pane.value.slice(-1) != "-" && pane.value.slice(-1) != "*" && pane.value.slice(-1) != "/" && pane.value.slice(-1) != "%") {
+                pane.value += '%';
+
+            }
+        },
+
+        btn_equals_fn: function () {
+
+            pane.value = eval(pane.value);
         }, // Evaluate the String
 
         btn_decimal_fn: function () {
 
-        //if(pane.value.charAt(pane.value.length - 1) !=".")
-        if(pane.value.slice(- 1) !=".")
-        {
-            pane.value += '.';
+            //if(pane.value.charAt(pane.value.length - 1) !=".")
+            if (pane.value.slice(-1) != ".") {
+                pane.value += '.';
 
-        }
+            }
         },
 
-        btn_cancel_fn: function  () {
+        btn_cancel_fn: function () {
 
-        pane.value = "";
+            pane.value = "";
         }
     }
 })();
 
 
-
 var pane = document.getElementById('calcPanel');
 
-$(dragDiv);
 
-//Functions
-function dragDiv() {
-    $('#myCalculator').draggable();
-}
-
-
-
-function elementGenerate(myId, myClass,myContent, myElement) {
+function elementGenerate(myId, myClass, myContent, myElement) {
     var myElement = document.createElement(myElement);
     myElement.setAttribute("id", myId);
     myElement.setAttribute("class", myClass);
@@ -96,71 +91,106 @@ function elementGenerate(myId, myClass,myContent, myElement) {
 //Generate Button Elements and Add to DOM
 
 //Row One
-for(i=1; i<=3; i++) {
+for (i = 1; i <= 3; i++) {
 
-    document.getElementById('calcRowOne').appendChild(elementGenerate(i,'mybtn', i, "button"))
-};// (0-3)
+    mymodule.$$('calcRowOne').appendChild(elementGenerate(i, 'mybtn', i, "button"))
+}
+;// (0-3)
 
-document.getElementById('calcRowOne').appendChild(elementGenerate('btnMultiply','mybtn', '&times;', "button"));//multiply
+mymodule.$$('calcRowOne').appendChild(elementGenerate('btnMultiply', 'mybtn', '&times;', "button"));//multiply
 
 //Row Two
-for(i=4; i<=6; i++) {
+for (i = 4; i <= 6; i++) {
 
-    document.getElementById('calcRowTwo').appendChild(elementGenerate(i,'mybtn', i, "button"))
-};//(4-6)
+    mymodule.$$('calcRowTwo').appendChild(elementGenerate(i, 'mybtn', i, "button"))
+}
+;//(4-6)
 
-document.getElementById('calcRowTwo').appendChild(elementGenerate('btnDivide','mybtn', '&#247;', "button"));//Divide
+mymodule.$$('calcRowTwo').appendChild(elementGenerate('btnDivide', 'mybtn', '&#247;', "button"));//Divide
 
 //Row Three
-for(i=7; i<=9; i++) {
+for (i = 7; i <= 9; i++) {
 
-    document.getElementById('calcRowThree').appendChild(elementGenerate(i,'mybtn', i, "button"))
-};//(7-9)
+    mymodule.$$('calcRowThree').appendChild(elementGenerate(i, 'mybtn', i, "button"))
+}
+;//(7-9)
 
-document.getElementById('calcRowThree').appendChild(elementGenerate('btnSubtract','mybtn', '&#8211;', "button"));//Subtract
+mymodule.$$('calcRowThree').appendChild(elementGenerate('btnSubtract', 'mybtn', '&#8211;', "button"));//Subtract
 
 //Row Four
-document.getElementById('calcRowFour').appendChild(elementGenerate('0','mybtn', '0', "button"));//
-document.getElementById('calcRowFour').appendChild(elementGenerate('btnDecPoint','mybtn', '&period;', "button"));
-document.getElementById('calcRowFour').appendChild(elementGenerate('btnPlus','mybtnAlt', '+', "button"));
+mymodule.$$('calcRowFour').appendChild(elementGenerate('0', 'mybtn', '0', "button"));//
+mymodule.$$('calcRowFour').appendChild(elementGenerate('btnDecPoint', 'mybtn', '&period;', "button"));
+mymodule.$$('calcRowFour').appendChild(elementGenerate('btnPlus', 'mybtnAlt', '+', "button"));
 
 //Row Five
-document.getElementById('calcRowFive').appendChild(elementGenerate('(','mybtn', '(', "button"));//
-document.getElementById('calcRowFive').appendChild(elementGenerate(')','mybtn', ')', "button"));
-document.getElementById('calcRowFive').appendChild(elementGenerate('btnModulus','mybtn', 'mod', "button"));
-document.getElementById('calcRowFive').appendChild(elementGenerate('btnCancelError','mybtn', 'Ce', "button"));
+mymodule.$$('calcRowFive').appendChild(elementGenerate('(', 'mybtn', '(', "button"));//
+mymodule.$$('calcRowFive').appendChild(elementGenerate(')', 'mybtn', ')', "button"));
+mymodule.$$('calcRowFive').appendChild(elementGenerate('btnModulus', 'mybtn', 'mod', "button"));
+mymodule.$$('calcRowFive').appendChild(elementGenerate('btnCancelError', 'mybtn', 'Ce', "button"));
 
 //Row Six
-document.getElementById('calcRowSix').appendChild(elementGenerate('btnCancel','mybtnAlt', 'C', "button"));
-document.getElementById('calcRowSix').appendChild(elementGenerate('btnEquals','mybtnAlt', '=', "button"));
+mymodule.$$('calcRowSix').appendChild(elementGenerate('btnCancel', 'mybtnAlt', 'C', "button"));
+mymodule.$$('calcRowSix').appendChild(elementGenerate('btnEquals', 'mybtnAlt', '=', "button"));
 
 
 //EventHandlers and EventListeners
-for(i=0; i<=9; i++) {
+for (i = 0; i <= 9; i++) {
 
-    document.getElementById(i).addEventListener("click", function () {pane.value += this.id}, false)
+    mymodule.$$(i).addEventListener("click", function () {
+        pane.value += this.id
+    }, false)
 
 }//Buttons (0-9)
 
-document.getElementById('(').addEventListener("click", function  () { pane.value += this.id}, false);
-document.getElementById(')').addEventListener("click", function  () { pane.value += this.id}, false);
+mymodule.$$('(').addEventListener("click", function () {
+    pane.value += this.id
+}, false);
+mymodule.$$(')').addEventListener("click", function () {
+    pane.value += this.id
+}, false);
 
-document.getElementById('btnPlus').onclick =  function  () { mymodule.btn_plus_fn()};
-document.getElementById('btnMultiply').onclick =  function  () { mymodule.btn_multiply_fn()};
-document.getElementById('btnDivide').onclick =  function  () { mymodule.btn_divide_fn()};
-document.getElementById('btnSubtract').onclick =  function  () {mymodule.btn_subtract_fn()};
-document.getElementById('btnEquals').onclick =  function  () { mymodule.btn_equals_fn()};
-document.getElementById('btnDecPoint').onclick =  function  () { mymodule.btn_decimal_fn()};
+mymodule.$$('btnPlus').onclick = function () {
+    mymodule.btn_plus_fn()
+};
+mymodule.$$('btnMultiply').onclick = function () {
+    mymodule.btn_multiply_fn()
+};
+mymodule.$$('btnDivide').onclick = function () {
+    mymodule.btn_divide_fn()
+};
+mymodule.$$('btnSubtract').onclick = function () {
+    mymodule.btn_subtract_fn()
+};
+mymodule.$$('btnEquals').onclick = function () {
+    mymodule.btn_equals_fn()
+};
+mymodule.$$('btnDecPoint').onclick = function () {
+    mymodule.btn_decimal_fn()
+};
 
 
-document.getElementById('btnCancel').addEventListener("click", function  () {mymodule.btn_cancel_fn()}, false);
-document.getElementById('btnCancelError').addEventListener("click", function  () {mymodule.btn_cancelError_fn()}, false);
-document.getElementById('btnModulus').addEventListener("click", function  () {mymodule.btn_modulus_fn()}, false);
+mymodule.$$('btnCancel').addEventListener("click", function () {
+    mymodule.btn_cancel_fn()
+}, false);
+mymodule.$$('btnCancelError').addEventListener("click", function () {
+    mymodule.btn_cancelError_fn()
+}, false);
+mymodule.$$('btnModulus').addEventListener("click", function () {
+    mymodule.btn_modulus_fn()
+}, false);
 
 
-document.addEventListener('keypress',function (e) {
+document.addEventListener('keypress', function (e) {
     if (13 == e.keyCode) {
         btn_equals_fn()
     }
 });
+
+
+$(dragDiv);
+
+//Functions
+function dragDiv() {
+    $('#myCalculator').draggable();
+}
 

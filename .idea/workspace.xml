@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b99cf639-c93b-433c-b4a8-5bb0f21835da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ariaCalc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ariaCalcAlt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery-ui-1.10.4.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ariaCalc.js" afterPath="$PROJECT_DIR$/js/ariaCalc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ariaCalc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,19 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="45" selection-start="753" selection-end="753" vertical-scroll-proportion="-9.0" vertical-offset="108" max-vertical-offset="1926">
+            <state line="54" column="24" selection-start="1565" selection-end="1565" vertical-scroll-proportion="1.0980036" vertical-offset="367" max-vertical-offset="1296">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ariaCalc.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ariaCalc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ariaCalc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="338" selection-end="338" vertical-scroll-proportion="0.43738317" vertical-offset="0" max-vertical-offset="3096">
+            <state line="88" column="1" selection-start="2432" selection-end="2432" vertical-scroll-proportion="27.607143" vertical-offset="3130" max-vertical-offset="3636">
               <folding />
             </state>
           </provider>
@@ -189,15 +184,15 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/SpecRunner.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/ariaCalcAlt.js" />
         <option value="$PROJECT_DIR$/js/ariaCalc.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="86" />
+    <option name="x" value="89" />
+    <option name="y" value="169" />
     <option name="width" value="1301" />
     <option name="height" value="715" />
   </component>
@@ -365,6 +360,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -601,15 +598,15 @@
       <changelist id="b99cf639-c93b-433c-b4a8-5bb0f21835da" name="Default" comment="" />
       <created>1395858495523</created>
       <updated>1395858495523</updated>
-      <workItem from="1395858506529" duration="6436000" />
+      <workItem from="1395858506529" duration="7351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6436000" />
+    <option name="totallyTimeSpent" value="7351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="86" width="1301" height="715" extended-state="0" />
+    <frame x="89" y="169" width="1301" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -714,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="753" selection-end="753" vertical-scroll-proportion="-9.0" vertical-offset="108" max-vertical-offset="1926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ariaCalcAlt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="48" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="3600">
@@ -730,7 +720,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ariaCalc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="338" selection-end="338" vertical-scroll-proportion="0.43738317" vertical-offset="0" max-vertical-offset="3096">
+        <state line="88" column="1" selection-start="2432" selection-end="2432" vertical-scroll-proportion="27.607143" vertical-offset="3130" max-vertical-offset="3636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="24" selection-start="1565" selection-end="1565" vertical-scroll-proportion="1.0980036" vertical-offset="367" max-vertical-offset="1296">
           <folding />
         </state>
       </provider>
