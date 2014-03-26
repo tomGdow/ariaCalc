@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b99cf639-c93b-433c-b4a8-5bb0f21835da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Converter.js" afterPath="$PROJECT_DIR$/js/Converter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/js/spec/ConverterSpec.js" afterPath="$PROJECT_DIR$/test/js/spec/ConverterSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="ariaCalc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +75,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Converter.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Converter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.38918918" vertical-offset="216" max-vertical-offset="648">
+            <state line="17" column="34" selection-start="332" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="648">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="51" selection-start="165" selection-end="165" vertical-scroll-proportion="0.45818183" vertical-offset="0" max-vertical-offset="275">
               <folding />
             </state>
           </provider>
@@ -136,15 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html5shiv.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/vendor/html5shiv.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5490">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -176,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/js/main.js" />
@@ -187,14 +188,15 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test/js/spec/ConverterSpec.js" />
         <option value="$PROJECT_DIR$/js/Converter.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="68" />
+    <option name="x" value="64" />
+    <option name="y" value="152" />
     <option name="width" value="1301" />
-    <option name="height" value="715" />
+    <option name="height" value="646" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -598,22 +600,22 @@
       <changelist id="b99cf639-c93b-433c-b4a8-5bb0f21835da" name="Default" comment="" />
       <created>1395858495523</created>
       <updated>1395858495523</updated>
-      <workItem from="1395858506529" duration="9932000" />
+      <workItem from="1395858506529" duration="10466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9932000" />
+    <option name="totallyTimeSpent" value="10466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="68" width="1301" height="715" extended-state="0" />
+    <frame x="64" y="152" width="1301" height="646" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36936936" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -653,16 +655,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="83" selection-end="84" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
@@ -748,7 +740,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Converter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.38918918" vertical-offset="216" max-vertical-offset="648">
+        <state line="17" column="34" selection-start="332" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="51" selection-start="165" selection-end="165" vertical-scroll-proportion="0.45818183" vertical-offset="0" max-vertical-offset="275">
           <folding />
         </state>
       </provider>

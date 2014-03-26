@@ -3,4 +3,6 @@ ariaCalc
 
 A JavaScript Calculator with responsive design
 
-url: [here](http://www.google.ie)
+url: [Heroku](http://ariacalc.herokuapp.com/)
+
+ [github repo](https://github.com/tomGdow/ariaCalc)
